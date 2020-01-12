@@ -33,6 +33,7 @@ class Human:
     def hasArrived(self):
       return (self.x == self.steps[-1]['x']) & (self.y == self.steps[-1]['y'])
 
+# Add humans
 humans = [human1, human2, human3]
 
 def haveAllArrived(humans):
@@ -41,7 +42,7 @@ def haveAllArrived(humans):
     haveAllArrived = haveAllArrived & human.hasArrived()
   return haveAllArrived
 
-def detectCollisions(humans, step):
+def detectCollisions(humans):
   haveGoneBack = []
   for humanX, humanY in itertools.combinations(humans, 2):
     if (humanX.hasArrived() | humanY.hasArrived()):
@@ -51,18 +52,11 @@ def detectCollisions(humans, step):
         humanX.goBack()
         haveGoneBack.append(humanX.id)
 
-
-i = 0
-
 while not haveAllArrived(humans):
   # Intermediate state
   print('STEP {} \n'.format(i + 1))
   for (y, human) in enumerate(humans):
-    print('Before human {} coords: {} \n in position {}'.format(y + 1, human.coordinates, human.position))
     if human.hasArrived():
       continue
     human.goForward()
-  detectCollisions(humans, i)
-  for (y, human) in enumerate(humans):
-    print('After human {} coords: {} \n in position {}'.format(y + 1, human.coordinates, human.position))
-  i+=1
+  detectCollisions(humans)
