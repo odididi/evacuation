@@ -1,103 +1,39 @@
 import itertools
-
-# mylist = [1, 2, 2, 4]
-
-# def compare(a, b):
-#   if a == b:
-#     print('{} equals {}'.format(a, b))
-
-# for a, b in itertools.combinations(mylist, 2):
-#     compare(a, b)
+import uuid
 
 class Human:  
     def __init__(self, x, y, steps):  
+      self.id = str(uuid.uuid4())
       self.x = x
       self.y = y
       self.coordinates = {
         'x': self.x,
         'y': self.y
       }
+      self.initialCoordinates = {
+        'x': self.x,
+        'y': self.y
+      }
       self.steps = steps
+      self.position = 0
 
     def setCoordinates(self, coords):  
       self.x = coords['x']
       self.y = coords['y']
       self.coordinates = coords
 
+    def goBack(self):
+      self.position = max(0, self.position - 1)
+      self.setCoordinates(self.steps[self.position])
+
+    def goForward(self):
+      self.position = min(len(self.steps), self.position + 1)
+      self.setCoordinates(self.steps[self.position])
+
     def hasArrived(self):
       return (self.x == self.steps[-1]['x']) & (self.y == self.steps[-1]['y'])
 
-human1 = Human(0, 3, [
-      {
-        'x': 1.4,
-        'y': 3
-      },
-          {
-        'x': 2.8,
-        'y': 3
-      },
-          {
-        'x': 4.2,
-        'y': 3
-      },
-      {
-        'x': 4.2,
-        'y': 1.6
-      },
-      {
-        'x': 2.8,
-        'y': 1.6
-      }
-    ])
-
-human2 = Human(10, 6, [
-      {
-        'x': 10,
-        'y': 4.6
-      },
-          {
-        'x': 8.6,
-        'y': 4.6
-      },
-          {
-        'x': 8.6,
-        'y': 3
-      },
-      {
-        'x': 8.6,
-        'y': 1.6
-      },
-      {
-        'x': 7.2,
-        'y': 1.6
-      },
-      {
-        'x': 5.8,
-        'y': 1.6
-      },
-      {
-        'x': 4.4,
-        'y': 1.6
-      },
-      {
-        'x': 3,
-        'y': 1.6
-      }
-    ])
-
-
-humans = [human1, human2]
-zone = {
-  'xMin': 3,
-  'xMax': 4,
-  'yMin': 1,
-  'yMax': 2
-}
-
-# def isInZone(zone, human):
-#   isInXBounds = zone['xMin'] <= human.x <= zone['xMax']
-#   isInYBounds = zone['yMin'] <= human.y <= zone['yMax']
-#   return isInXBounds & isInYBounds
+humans = [human1, human2, human3]
 
 def haveAllArrived(humans):
   haveAllArrived = True
@@ -106,30 +42,27 @@ def haveAllArrived(humans):
   return haveAllArrived
 
 def detectCollisions(humans, step):
+  haveGoneBack = []
   for humanX, humanY in itertools.combinations(humans, 2):
-    print(humanX.coordinates, humanY.coordinates)
-    print(abs(humanX.x - humanY.x) < 1.2)
-    print(abs(humanX.y - humanY.y) < 1.2)
-    print(step)
-    if (abs(humanX.x - humanY.x) < 1.2) | (abs(humanX.y - humanY.y) < 1.2):
-      print('collision detected')
-      humanX.setCoordinates(humanX.steps[step - 1])
+    if (humanX.hasArrived() | humanY.hasArrived()):
       continue
+    if (abs(humanX.x - humanY.x) < 1.2) & (abs(humanX.y - humanY.y) < 1.2):
+      if not (humanX.id in haveGoneBack):
+        humanX.goBack()
+        haveGoneBack.append(humanX.id)
 
 
 i = 0
 
 while not haveAllArrived(humans):
   # Intermediate state
+  print('STEP {} \n'.format(i + 1))
   for (y, human) in enumerate(humans):
+    print('Before human {} coords: {} \n in position {}'.format(y + 1, human.coordinates, human.position))
     if human.hasArrived():
       continue
-    human.setCoordinates(human.steps[i])
-  # for human in humans:
-  #   print(human.coordinates)
-  # detectCollisions(humans, i)
+    human.goForward()
+  detectCollisions(humans, i)
+  for (y, human) in enumerate(humans):
+    print('After human {} coords: {} \n in position {}'.format(y + 1, human.coordinates, human.position))
   i+=1
-
-print(human1.coordinates)
-print(human2.coordinates)
-print(humans[0])
