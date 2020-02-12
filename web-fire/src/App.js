@@ -1,13 +1,12 @@
 import React, {useRef, useEffect} from 'react';
 import floorPlan from './floor-plan.png';
 import './App.css';
-import humans from './humans';
-import Human from './Human';
+import humans from './revitHumans';
 import styled from 'styled-components';
-import {move} from './styles';
+// import {move} from './styles';
+import {take} from 'ramda';
 
 const HumanDot = styled.circle`
-  animation: ${props => move(props.x, props.y)} 0.4s linear forwards;
 `;
 
 const screenWidth = window.innerWidth;
@@ -62,8 +61,8 @@ const App = () => {
   }
   const [index, setIndex] = React.useState(0);
   const prevIndex = usePrevious(index);
-  const prevSteps = [prevIndex || 0, prevIndex || 0, prevIndex || 0];
-  const steps = [index, index, index];
+  const prevSteps = Array(humans.length).fill(prevIndex || 0)
+  const steps = Array(humans.length).fill(index)
   // const [steps, setSteps] = React.useState([0, 0, 0])
   // const humanInstances = humans.map(human =>
   //   new Human(human[index].x, human[index].y, human, index)
@@ -75,19 +74,19 @@ const App = () => {
     <div className="App">
       <img src={floorPlan} className="App-logo" alt="logo" />
       <div style={{position: 'absolute', top: 10, left: `calc(50vw - ${imageWidth/2}px)`, width: imageWidth, height: imageHeight}}>
-        <svg style={{transitionProperty: 'top left', transitionDuration: '1s', position: 'absolute', top: topPadding, left: leftPadding}} width={0.6388 * imageWidth} height={0.91 * imageHeight} viewBox={`0 0 42070 46285`} xmlns="http://www.w3.org/2000/svg">
+        <svg style={{position: 'absolute', top: topPadding, left: leftPadding}} width={0.6388 * imageWidth} height={0.91 * imageHeight} viewBox={`0 0 42070 46285`} xmlns="http://www.w3.org/2000/svg">
           {humans.map((h, i) => (
             <>
-              {console.log(h)}
+              {/* {console.log(hs[prevSteps[i]])} */}
               <HumanDot
-                x={[h[prevSteps[i]].x, h[steps[i]].x]}
-                y={[h[prevSteps[i]].y, h[steps[i]].y]}
+                // x={[h[prevSteps[i]].x, h[steps[i]].x]}
+                // y={[h[prevSteps[i]].y, h[steps[i]].y]}
                 key={h.id}
-                // cx={h.x}
-                // cy={46285 - h.y}
+                cx={h[steps[i]].x}
+                cy={46285 - h[steps[i]].y}
                 r="200"
-                stroke="red"
-                fill="red"
+                stroke={`rgb(${Math.random() * 255}, 0, 0)`}
+                fill={`rgb(${Math.random() * 255}, 0, 0)`}
               />
             </>
           ))}
