@@ -4,10 +4,9 @@ import './App.css';
 import humans from './revitHumans';
 import styled from 'styled-components';
 import {move} from './styles';
-import {take} from 'ramda';
+import {take, reduce, addIndex} from 'ramda';
 
-const HumanDot = styled.circle`
-`;
+const reduceIndexed = addIndex(reduce);
 
 const screenWidth = window.innerWidth;
 const screenHeight = window.innerHeight;
@@ -16,20 +15,89 @@ const imageWidth = (1.29 * screenHeight - 20);
 const leftPadding = 0.18065 * imageWidth;
 const topPadding = 0.045 * imageHeight;
 
-const collisionBoundary = 800
 
 const pairsOfArray = array => (
   array.reduce((acc, val, i1) => [
     ...acc,
     ...new Array(array.length - 1 - i1).fill(0)
-      .map((v, i2) => ([array[i1], array[i1 + 1 + i2]]))
+      .map((v, i2) => ({first: array[i1], second: array[i1 + 1 + i2], indexes: [i1, i1 + 1 + i2]}))
   ], [])
 ) 
+
+// const detect = newPositions => {
+//   const oldCoords = newPositions.map((p, i) => ({
+//     x: humans[i][p - 1].x,
+//     y: humans[i][p - 1].y
+//   }))
+  // console.log(oldCoords);
+//   const newCoords = newPositions.map((p, i) => ({
+//     x: humans[i][p].x,
+//     y: humans[i][p].y
+//   }))
+  // console.log(newCoords);
+//   let goBackIndexes = []
+//   const reducer = (acc, current, i) => {
+//     let canMove = true;
+//     acc.map((a, j) => {
+//       if ((Math.abs(a.x - current.x) < 1500) && (Math.abs(a.y - current.y) < 1500)) {
+        // console.log(j, i)
+//         canMove = false
+//       }
+//     })
+//     if (canMove) {
+      // console.log(`${i} moved`)
+//       acc.push(current)
+//       return acc;
+//     }
+    // console.log(`${i} stayed`)
+//     goBackIndexes.push(i)
+//     return acc;
+//   };
+//   reduceIndexed(reducer, oldCoords, newCoords);
+//   const updatedNewPositions = newPositions.map((n, i) => goBackIndexes.includes(i) ? n - 1 : n);
+  // console.log(updatedNewPositions);
+//   return updatedNewPositions;
+// }
+
+const collisionBoundary = 500
+
+const detectCollision = (newPositions, goneBack) => {
+  const newCoords = newPositions.map((p, i) => ({
+    x: humans[i][p].x,
+    y: humans[i][p].y
+  }))
+  // console.log('detect', goneBack);
+  let collisionDetected = false;
+  let newIndex = 10000000;
+  const combinations = pairsOfArray(newCoords);
+  // console.log('combos', combinations);
+  const comboLength = combinations.length;
+  for (let i = 0; i < comboLength; i++) {
+    const {first, second, indexes} = combinations[i];
+    if ((Math.abs(first.x - second.x) < collisionBoundary) && (Math.abs(first.y - second.y) < collisionBoundary)) {
+      // console.log('collision', indexes);
+        if (goneBack.includes(indexes[0])) {
+          newIndex = indexes[1]
+          // console.log(`stayed back ${newIndex} `)
+        } else {
+          newIndex = indexes[0]
+          // console.log(`stayed back ${newIndex} `)
+        }
+      collisionDetected = true;
+      break;
+    }
+  }
+  return {
+    collisionDetected,
+    goneBack: newIndex !== 10000000 ? [...goneBack, newIndex] : goneBack
+  };
+}
 
 const detectCollisions = humans => {
   let collisionDetected = false;
   const combinations = pairsOfArray(humans);
   const comboLength = combinations.length;
+  // console.log(comboLength)
   for (let i = 0; i < comboLength; i++) {
     const first = combinations[i][0];
     const second = combinations[i][1]; 
@@ -42,67 +110,62 @@ const detectCollisions = humans => {
   return collisionDetected;
 }
 
-const tops = [1000, 2000, 3000];
-const lefts = [1000, 2000, 3000];
-
 const App = () => {
   const [humanPositions, setHumanPosition] = React.useState(Array(humans.length).fill(0))
   const [stepNumber, setStepNumber] = React.useState(0);
-  const goForward = () => {
-    const newPositions = Array(humans.length).fill(stepNumber + 1);
-    setStepNumber(stepNumber + 1);
+  const goBack = () => {
+    const newPositions = humanPositions.map(p => Math.max(0, p - 1))
+    setStepNumber(stepNumber - 1);
     setHumanPosition(newPositions);
   }
-  // const usePrevious = (value) => {
-  //   // The ref object is a generic container whose current property is mutable ...
-  //   // ... and can hold any value, similar to an instance property on a class
-  //   const ref = useRef();
-    
-  //   // Store current value in ref
-  //   useEffect(() => {
-  //     ref.current = value;
-  //   }, [value]); // Only re-run if value changes
-    
-  //   // Return previous value (happens before update in useEffect above)
-  //   return ref.current;
-  // }
-  // const [index, setIndex] = React.useState(0);
-  // const prevIndex = usePrevious(index);
-  // const prevSteps = Array(humans.length).fill(prevIndex || 0)
-  // const steps = Array(humans.length).fill(index)
-
-  // const [steps, setSteps] = React.useState([0, 0, 0])
-  // const humanInstances = humans.map(human =>
-  //   new Human(human[index].x, human[index].y, human, index)
-  // );
-  // React.useEffect(() => {
-  //   setSteps([index, index, index])
-  // }, [index])
-
+  const goForward = () => {
+    // const newPositions = detect(humanPositions.map(p => p + 1))
+    const newPositions = humanPositions.map(p => p + 1)
+    setStepNumber(stepNumber + 1);
+    // setHumanPosition(humanPositions.map(p => p + 1))
+    let times = 0;
+    let updatedNewPositions = newPositions;
+    const {collisionDetected, goneBack} = detectCollision(updatedNewPositions, []);
+    let collision = collisionDetected;
+    let humansStayed = goneBack;
+    while (collision && times < 200) {
+      // console.log('gone', humansStayed);
+      updatedNewPositions = newPositions.map((n, i) => humansStayed.includes(i) ? n - 1 : n);
+      const {collisionDetected, goneBack} = detectCollision(updatedNewPositions, humansStayed);
+      // console.log('positions', updatedNewPositions);
+      // console.log(collisionDetected, goneBack);
+      collision = collisionDetected;
+      // console.log('collision', collision);
+      humansStayed = goneBack;
+      times += 1;
+    }
+    // console.log(newPositions, updatedNewPositions);
+    setHumanPosition(updatedNewPositions);
+  }
+  // const test = [humans[3], humans[6]];
   return (
     <div className="App">
       <img src={floorPlan} className="App-logo" alt="logo" />
       <div style={{position: 'absolute', top: 10, left: `calc(50vw - ${imageWidth/2}px)`, width: imageWidth, height: imageHeight}}>
         <svg style={{position: 'absolute', top: topPadding, left: leftPadding}} width={0.6388 * imageWidth} height={0.91 * imageHeight} viewBox={`0 0 42070 46285`} xmlns="http://www.w3.org/2000/svg">
-          {take(3, humans).map((h, i) => (
-            <>
-              {/* {console.log(hs[prevSteps[i]])} */}
-              <HumanDot
-                // x={[h[prevSteps[i]].x, h[steps[i]].x]}
-                // y={[h[prevSteps[i]].y, h[steps[i]].y]}
-                key={h.id}
-                cx={h[humanPositions[i]].x}
-                cy={46285 - h[humanPositions[i]].y}
-                r="200"
-                stroke={`rgb(${Math.random() * 255}, 0, 0)`}
-                fill={`rgb(${Math.random() * 255}, 0, 0)`}
-              />
-            </>
+          {humans.map((h, i) => (       
+            <circle
+              key={i}
+              // x={[h[prevSteps[i]].x, h[steps[i]].x]}
+              // y={[h[prevSteps[i]].y, h[steps[i]].y]}
+              i={i}
+              // key={h.id}
+              cx={h[humanPositions[i]].x}
+              cy={46285 - h[humanPositions[i]].y}
+              r="300"
+              stroke={`rgb(${i * 50}, 0, 0)`}
+              fill={`rgb(${i * 50}, 0, 0)`}
+            />
           ))}
         </svg>
         <div style={{position: 'absolute', top: 20, right: 0}}>
           <h5>{`Step: ${stepNumber}`}</h5>
-          {/* <button onClick={() => setIndex(Math.max(0, index - 1))}>Prev Step</button> */}
+          <button onClick={goBack}>prev Step</button>
           <button onClick={goForward}>Next Step</button>
         </div>
       </div>
