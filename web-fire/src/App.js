@@ -6,6 +6,23 @@ import styled from 'styled-components';
 import {move} from './styles';
 import {take, reduce, addIndex} from 'ramda';
 import {Stage, Layer, Text, Circle} from 'react-konva';
+import {usePrevious} from 'react-use';
+import { Spring, animated } from 'react-spring/renderprops-konva';
+
+const testingHumans = humans;
+// function usePrevious(value) {
+//   // The ref object is a generic container whose current property is mutable ...
+//   // ... and can hold any value, similar to an instance property on a class
+//   const ref = useRef();
+  
+//   // Store current value in ref
+//   useEffect(() => {
+//     ref.current = value;
+//   }, [value]); // Only re-run if value changes
+  
+//   // Return previous value (happens before update in useEffect above)
+//   return ref.current;
+// }
 
 const reduceIndexed = addIndex(reduce);
 
@@ -25,64 +42,43 @@ const pairsOfArray = array => (
   ], [])
 ) 
 
-// const detect = newPositions => {
-//   const oldCoords = newPositions.map((p, i) => ({
-//     x: humans[i][p - 1].x,
-//     y: humans[i][p - 1].y
-//   }))
-  // console.log(oldCoords);
-//   const newCoords = newPositions.map((p, i) => ({
-//     x: humans[i][p].x,
-//     y: humans[i][p].y
-//   }))
-  // console.log(newCoords);
-//   let goBackIndexes = []
-//   const reducer = (acc, current, i) => {
-//     let canMove = true;
-//     acc.map((a, j) => {
-//       if ((Math.abs(a.x - current.x) < 1500) && (Math.abs(a.y - current.y) < 1500)) {
-        // console.log(j, i)
-//         canMove = false
-//       }
-//     })
-//     if (canMove) {
-      // console.log(`${i} moved`)
-//       acc.push(current)
-//       return acc;
-//     }
-    // console.log(`${i} stayed`)
-//     goBackIndexes.push(i)
-//     return acc;
-//   };
-//   reduceIndexed(reducer, oldCoords, newCoords);
-//   const updatedNewPositions = newPositions.map((n, i) => goBackIndexes.includes(i) ? n - 1 : n);
-  // console.log(updatedNewPositions);
-//   return updatedNewPositions;
-// }
+const ColoredRect = ({X, Y, prevX, prevY}) => {
+    return (
+      <Spring
+        native
+        from={{ x: prevX, y: prevY }}
+        to={{
+          x:  X,
+          y: Y,
+          fill: 'red',
+          width: 6
+        }}
+      >
+        {props => (
+          <animated.Circle {...props} />
+        )}
+      </Spring>
+    );
+  }
 
 const collisionBoundary = 500
 
 const detectCollision = (newPositions, goneBack) => {
   const newCoords = newPositions.map((p, i) => ({
-    x: humans[i][p].x,
-    y: humans[i][p].y
+    x: testingHumans[i][p].x,
+    y: testingHumans[i][p].y
   }))
-  // console.log('detect', goneBack);
   let collisionDetected = false;
   let newIndex = 10000000;
   const combinations = pairsOfArray(newCoords);
-  // console.log('combos', combinations);
   const comboLength = combinations.length;
   for (let i = 0; i < comboLength; i++) {
     const {first, second, indexes} = combinations[i];
     if ((Math.abs(first.x - second.x) < collisionBoundary) && (Math.abs(first.y - second.y) < collisionBoundary)) {
-      // console.log('collision', indexes);
         if (goneBack.includes(indexes[0])) {
           newIndex = indexes[1]
-          // console.log(`stayed back ${newIndex} `)
         } else {
           newIndex = indexes[0]
-          // console.log(`stayed back ${newIndex} `)
         }
       collisionDetected = true;
       break;
@@ -98,7 +94,6 @@ const detectCollisions = humans => {
   let collisionDetected = false;
   const combinations = pairsOfArray(humans);
   const comboLength = combinations.length;
-  // console.log(comboLength)
   for (let i = 0; i < comboLength; i++) {
     const first = combinations[i][0];
     const second = combinations[i][1]; 
@@ -112,7 +107,8 @@ const detectCollisions = humans => {
 }
 
 const App = () => {
-  const [humanPositions, setHumanPosition] = React.useState(Array(humans.length).fill(0))
+  const [humanPositions, setHumanPosition] = React.useState(Array(testingHumans.length).fill(0))
+  const prevPositions = usePrevious(humanPositions) || Array(testingHumans.length).fill(0) ;
   const [stepNumber, setStepNumber] = React.useState(0);
   const goBack = () => {
     const newPositions = humanPositions.map(p => Math.max(0, p - 1))
@@ -120,51 +116,38 @@ const App = () => {
     setHumanPosition(newPositions);
   }
   const goForward = () => {
-    // const newPositions = detect(humanPositions.map(p => p + 1))
     const newPositions = humanPositions.map(p => p + 1)
     setStepNumber(stepNumber + 1);
-    // setHumanPosition(humanPositions.map(p => p + 1))
     let times = 0;
     let updatedNewPositions = newPositions;
     const {collisionDetected, goneBack} = detectCollision(updatedNewPositions, []);
     let collision = collisionDetected;
     let humansStayed = goneBack;
     while (collision && times < 200) {
-      // console.log('gone', humansStayed);
       updatedNewPositions = newPositions.map((n, i) => humansStayed.includes(i) ? n - 1 : n);
       const {collisionDetected, goneBack} = detectCollision(updatedNewPositions, humansStayed);
-      // console.log('positions', updatedNewPositions);
-      // console.log(collisionDetected, goneBack);
       collision = collisionDetected;
-      // console.log('collision', collision);
       humansStayed = goneBack;
       times += 1;
     }
-    // console.log(newPositions, updatedNewPositions);
     setHumanPosition(updatedNewPositions);
   }
-  // const test = [humans[3], humans[6]];
+
   return (
     <div className="App">
       <img src={floorPlan} className="App-logo" alt="logo" />
       <div style={{position: 'absolute', top: 10, left: `calc(50vw - ${imageWidth/2}px)`, width: imageWidth, height: imageHeight}}>
       <Stage height={0.91 * imageHeight} width={0.6388 * imageWidth} style={{position: 'absolute', top: topPadding, left:leftPadding}}>
           <Layer>
-            {humans.map((h, i) => (
-            // <ColoredRect
-            //   key={i}
-            //   x={h.steps[Math.min(h.steps.length, humanPositions[i])].x/71.9}
-            //   y={(46280 - h.steps[Math.min(h.steps.length, humanPositions[i])].y)/72.1}
-            // />
-            <Circle
-            // text={i}
-            radius={4}
-            fill='red'
-            x={h[humanPositions[i]].x/71.9}
-            y={(46280 - h[humanPositions[i]].y)/72.1}
-          />
-          ))}
-            {/* <ColoredRect x={}/> */}
+            {testingHumans.map((h, i) => (
+              <ColoredRect
+                key={i}
+                prevX={h[prevPositions[i]].x/71.9}
+                prevY={(46280 - h[prevPositions[i]].y)/72.1}
+                X={h[humanPositions[i]].x/71.9}
+                Y={(46280 - h[humanPositions[i]].y)/72.1}
+              />
+            ))}
           </Layer>
         </Stage>
         <div style={{position: 'absolute', top: 20, right: 0}}>
