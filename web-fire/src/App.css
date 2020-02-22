@@ -8,11 +8,11 @@
 
 .App-logo {
   height: calc(100vh - 20px);
-  width: calc(1.29 * 100vh - 20px);
+  width: calc(1.143 * 100vh - 20px);
   pointer-events: none;
   position: absolute;
   top: 10px;
-  left: calc(50% - (1.29 * 100vh - 20px)/2);
+  left: calc(50% - (1.143 * 100vh - 20px)/2);
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
