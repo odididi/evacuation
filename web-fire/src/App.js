@@ -5,6 +5,7 @@ import humans from './revitHumans';
 import styled from 'styled-components';
 import {move} from './styles';
 import {take, reduce, addIndex} from 'ramda';
+import {Stage, Layer, Text, Circle} from 'react-konva';
 
 const reduceIndexed = addIndex(reduce);
 
@@ -147,22 +148,25 @@ const App = () => {
     <div className="App">
       <img src={floorPlan} className="App-logo" alt="logo" />
       <div style={{position: 'absolute', top: 10, left: `calc(50vw - ${imageWidth/2}px)`, width: imageWidth, height: imageHeight}}>
-        <svg style={{position: 'absolute', top: topPadding, left: leftPadding}} width={0.6388 * imageWidth} height={0.91 * imageHeight} viewBox={`0 0 42070 46285`} xmlns="http://www.w3.org/2000/svg">
-          {humans.map((h, i) => (       
-            <circle
-              key={i}
-              // x={[h[prevSteps[i]].x, h[steps[i]].x]}
-              // y={[h[prevSteps[i]].y, h[steps[i]].y]}
-              i={i}
-              // key={h.id}
-              cx={h[humanPositions[i]].x}
-              cy={46285 - h[humanPositions[i]].y}
-              r="300"
-              stroke={`rgb(${i * 50}, 0, 0)`}
-              fill={`rgb(${i * 50}, 0, 0)`}
-            />
+      <Stage height={0.91 * imageHeight} width={0.6388 * imageWidth} style={{position: 'absolute', top: topPadding, left:leftPadding}}>
+          <Layer>
+            {humans.map((h, i) => (
+            // <ColoredRect
+            //   key={i}
+            //   x={h.steps[Math.min(h.steps.length, humanPositions[i])].x/71.9}
+            //   y={(46280 - h.steps[Math.min(h.steps.length, humanPositions[i])].y)/72.1}
+            // />
+            <Circle
+            // text={i}
+            radius={4}
+            fill='red'
+            x={h[humanPositions[i]].x/71.9}
+            y={(46280 - h[humanPositions[i]].y)/72.1}
+          />
           ))}
-        </svg>
+            {/* <ColoredRect x={}/> */}
+          </Layer>
+        </Stage>
         <div style={{position: 'absolute', top: 20, right: 0}}>
           <h5>{`Step: ${stepNumber}`}</h5>
           <button onClick={goBack}>prev Step</button>
