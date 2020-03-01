@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/evacuation-plan/static/css/main.599729ce.chunk.css",
+    "main.js": "/evacuation-plan/static/js/main.e0cf844d.chunk.js",
+    "main.js.map": "/evacuation-plan/static/js/main.e0cf844d.chunk.js.map",
+    "runtime-main.js": "/evacuation-plan/static/js/runtime-main.712ae75e.js",
+    "runtime-main.js.map": "/evacuation-plan/static/js/runtime-main.712ae75e.js.map",
+    "static/js/2.35dfb103.chunk.js": "/evacuation-plan/static/js/2.35dfb103.chunk.js",
+    "static/js/2.35dfb103.chunk.js.map": "/evacuation-plan/static/js/2.35dfb103.chunk.js.map",
+    "index.html": "/evacuation-plan/index.html",
+    "precache-manifest.844f43af00464b7f2d36f87e74d63122.js": "/evacuation-plan/precache-manifest.844f43af00464b7f2d36f87e74d63122.js",
+    "service-worker.js": "/evacuation-plan/service-worker.js",
+    "static/css/main.599729ce.chunk.css.map": "/evacuation-plan/static/css/main.599729ce.chunk.css.map",
+    "static/js/2.35dfb103.chunk.js.LICENSE": "/evacuation-plan/static/js/2.35dfb103.chunk.js.LICENSE",
+    "static/media/floor-plan.jpg": "/evacuation-plan/static/media/floor-plan.11102fb2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.712ae75e.js",
+    "static/js/2.35dfb103.chunk.js",
+    "static/css/main.599729ce.chunk.css",
+    "static/js/main.e0cf844d.chunk.js"
+  ]
+}
