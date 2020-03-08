@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/evacuation-plan/precache-manifest.844f43af00464b7f2d36f87e74d63122.js"
+  "/evacuation-plan/precache-manifest.3e492978ea6bfcb1b7b5ecbe462f72a7.js"
 );
 
 self.addEventListener('message', (event) => {
