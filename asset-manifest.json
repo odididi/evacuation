@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/evacuation-plan/static/css/main.599729ce.chunk.css",
-    "main.js": "/evacuation-plan/static/js/main.7835eddc.chunk.js",
-    "main.js.map": "/evacuation-plan/static/js/main.7835eddc.chunk.js.map",
-    "runtime-main.js": "/evacuation-plan/static/js/runtime-main.712ae75e.js",
-    "runtime-main.js.map": "/evacuation-plan/static/js/runtime-main.712ae75e.js.map",
-    "static/js/2.ad4445e7.chunk.js": "/evacuation-plan/static/js/2.ad4445e7.chunk.js",
-    "static/js/2.ad4445e7.chunk.js.map": "/evacuation-plan/static/js/2.ad4445e7.chunk.js.map",
-    "index.html": "/evacuation-plan/index.html",
-    "precache-manifest.3e492978ea6bfcb1b7b5ecbe462f72a7.js": "/evacuation-plan/precache-manifest.3e492978ea6bfcb1b7b5ecbe462f72a7.js",
-    "service-worker.js": "/evacuation-plan/service-worker.js",
-    "static/css/main.599729ce.chunk.css.map": "/evacuation-plan/static/css/main.599729ce.chunk.css.map",
-    "static/js/2.ad4445e7.chunk.js.LICENSE": "/evacuation-plan/static/js/2.ad4445e7.chunk.js.LICENSE",
-    "static/media/floor-plan.jpg": "/evacuation-plan/static/media/floor-plan.11102fb2.jpg"
+    "main.css": "/evacuation/static/css/main.599729ce.chunk.css",
+    "main.js": "/evacuation/static/js/main.b3f47dde.chunk.js",
+    "main.js.map": "/evacuation/static/js/main.b3f47dde.chunk.js.map",
+    "runtime-main.js": "/evacuation/static/js/runtime-main.de20b86a.js",
+    "runtime-main.js.map": "/evacuation/static/js/runtime-main.de20b86a.js.map",
+    "static/js/2.ed56f80f.chunk.js": "/evacuation/static/js/2.ed56f80f.chunk.js",
+    "static/js/2.ed56f80f.chunk.js.map": "/evacuation/static/js/2.ed56f80f.chunk.js.map",
+    "index.html": "/evacuation/index.html",
+    "precache-manifest.a8db7e869a176d2b096bbcb54723b720.js": "/evacuation/precache-manifest.a8db7e869a176d2b096bbcb54723b720.js",
+    "service-worker.js": "/evacuation/service-worker.js",
+    "static/css/main.599729ce.chunk.css.map": "/evacuation/static/css/main.599729ce.chunk.css.map",
+    "static/js/2.ed56f80f.chunk.js.LICENSE": "/evacuation/static/js/2.ed56f80f.chunk.js.LICENSE",
+    "static/media/floor-plan.jpg": "/evacuation/static/media/floor-plan.11102fb2.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.712ae75e.js",
-    "static/js/2.ad4445e7.chunk.js",
+    "static/js/runtime-main.de20b86a.js",
+    "static/js/2.ed56f80f.chunk.js",
     "static/css/main.599729ce.chunk.css",
-    "static/js/main.7835eddc.chunk.js"
+    "static/js/main.b3f47dde.chunk.js"
   ]
 }
