@@ -1,0 +1,2929 @@
+[{
+  "coordinates": {
+    "x": 21879.358,
+    "y": 31283.201
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 22846.975,
+    "y": 31451.679
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 23999.613,
+    "y": 31451.679
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 25459.567,
+    "y": 31451.679
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 23221.266,
+    "y": 31451.679
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 24619.831,
+    "y": 31451.679
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 25850.492,
+    "y": 31451.679
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 27392.445,
+    "y": 31451.679
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 22557.133,
+    "y": 31451.679
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 23845.511,
+    "y": 31451.679
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 25295.28,
+    "y": 31451.679
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 26745.057,
+    "y": 31451.679
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 27924.704,
+    "y": 31451.679
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 29168.594,
+    "y": 31451.679
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 30586.256,
+    "y": 31451.679
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 12291.027,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 12480.311,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 13691.027,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 14031.711,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 15531.214,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 11944.931,
+    "y": 14160.642
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 13262.094,
+    "y": 14160.642
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 22346.013,
+    "y": 31451.679
+  },
+  "collisionCount": 27
+}, {
+  "coordinates": {
+    "x": 23405.855,
+    "y": 31800.324
+  },
+  "collisionCount": 27
+}, {
+  "coordinates": {
+    "x": 24298.917,
+    "y": 32697.918
+  },
+  "collisionCount": 27
+}, {
+  "coordinates": {
+    "x": 31838.903,
+    "y": 32139.202
+  },
+  "collisionCount": 32
+}, {
+  "coordinates": {
+    "x": 32945.781,
+    "y": 32468.799
+  },
+  "collisionCount": 31
+}, {
+  "coordinates": {
+    "x": 34014.352,
+    "y": 33308.571
+  },
+  "collisionCount": 31
+}, {
+  "coordinates": {
+    "x": 34735.936,
+    "y": 34033.816
+  },
+  "collisionCount": 31
+}, {
+  "coordinates": {
+    "x": 35202.79,
+    "y": 34878.783
+  },
+  "collisionCount": 31
+}, {
+  "coordinates": {
+    "x": 35202.79,
+    "y": 36031.421
+  },
+  "collisionCount": 31
+}, {
+  "coordinates": {
+    "x": 35875.729,
+    "y": 37213.632
+  },
+  "collisionCount": 31
+}, {
+  "coordinates": {
+    "x": 20590.169,
+    "y": 29987.471
+  },
+  "collisionCount": 26
+}, {
+  "coordinates": {
+    "x": 21304.235,
+    "y": 30705.16
+  },
+  "collisionCount": 26
+}, {
+  "coordinates": {
+    "x": 22647.748,
+    "y": 31451.679
+  },
+  "collisionCount": 26
+}, {
+  "coordinates": {
+    "x": 21646.023,
+    "y": 31048.683
+  },
+  "collisionCount": 26
+}, {
+  "coordinates": {
+    "x": 24227.717,
+    "y": 31451.679
+  },
+  "collisionCount": 26
+}, {
+  "coordinates": {
+    "x": 25764.698,
+    "y": 31451.679
+  },
+  "collisionCount": 26
+}, {
+  "coordinates": {
+    "x": 27421.266,
+    "y": 31451.679
+  },
+  "collisionCount": 26
+}, {
+  "coordinates": {
+    "x": 28819.831,
+    "y": 31451.679
+  },
+  "collisionCount": 26
+}, {
+  "coordinates": {
+    "x": 30050.492,
+    "y": 31451.679
+  },
+  "collisionCount": 26
+}, {
+  "coordinates": {
+    "x": 31463.492,
+    "y": 31761.887
+  },
+  "collisionCount": 29
+}, {
+  "coordinates": {
+    "x": 27000.75,
+    "y": 31451.679
+  },
+  "collisionCount": 26
+}, {
+  "coordinates": {
+    "x": 28157.133,
+    "y": 31451.679
+  },
+  "collisionCount": 26
+}, {
+  "coordinates": {
+    "x": 29445.511,
+    "y": 31451.679
+  },
+  "collisionCount": 26
+}, {
+  "coordinates": {
+    "x": 30895.28,
+    "y": 31451.679
+  },
+  "collisionCount": 26
+}, {
+  "coordinates": {
+    "x": 32345.057,
+    "y": 31451.679
+  },
+  "collisionCount": 26
+}, {
+  "coordinates": {
+    "x": 28518.484,
+    "y": 31451.679
+  },
+  "collisionCount": 26
+}, {
+  "coordinates": {
+    "x": 20961.898,
+    "y": 30361.087
+  },
+  "collisionCount": 25
+}, {
+  "coordinates": {
+    "x": 11170.813,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 12596.259,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 14005.663,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 15548.429,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 16680.311,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 17891.027,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 18231.711,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 19731.214,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 14027.198,
+    "y": 29417.439
+  },
+  "collisionCount": 14
+}, {
+  "coordinates": {
+    "x": 15459.881,
+    "y": 29417.439
+  },
+  "collisionCount": 14
+}, {
+  "coordinates": {
+    "x": 17122.198,
+    "y": 29417.439
+  },
+  "collisionCount": 14
+}, {
+  "coordinates": {
+    "x": 18438.543,
+    "y": 29535.291
+  },
+  "collisionCount": 14
+}, {
+  "coordinates": {
+    "x": 16578.981,
+    "y": 29535.291
+  },
+  "collisionCount": 14
+}, {
+  "coordinates": {
+    "x": 17918.3,
+    "y": 29417.439
+  },
+  "collisionCount": 14
+}, {
+  "coordinates": {
+    "x": 19536.527,
+    "y": 29535.291
+  },
+  "collisionCount": 14
+}, {
+  "coordinates": {
+    "x": 19907.573,
+    "y": 29535.291
+  },
+  "collisionCount": 14
+}, {
+  "coordinates": {
+    "x": 21551.417,
+    "y": 29417.439
+  },
+  "collisionCount": 14
+}, {
+  "coordinates": {
+    "x": 20953.777,
+    "y": 29535.291
+  },
+  "collisionCount": 14
+}, {
+  "coordinates": {
+    "x": 22160.652,
+    "y": 29535.291
+  },
+  "collisionCount": 14
+}, {
+  "coordinates": {
+    "x": 12570.813,
+    "y": 14160.642
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 13996.259,
+    "y": 14160.642
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 15405.663,
+    "y": 14160.642
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 16948.429,
+    "y": 14160.642
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 18080.311,
+    "y": 14160.642
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 19291.027,
+    "y": 14160.642
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 19631.711,
+    "y": 14160.642
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 21131.214,
+    "y": 14160.642
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 12831.119,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 14213.991,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 15370.813,
+    "y": 14160.642
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 16796.259,
+    "y": 14160.642
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 15714.866,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 18205.663,
+    "y": 14160.642
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 19748.429,
+    "y": 14160.642
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 20880.311,
+    "y": 14160.642
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 22091.027,
+    "y": 14160.642
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 22431.711,
+    "y": 14160.642
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 23931.214,
+    "y": 14160.642
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 17148.77,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 12349.676,
+    "y": 14160.642
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 13641.716,
+    "y": 14160.642
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 14837.056,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 16216.05,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 18550.207,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 20086.061,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 21744.931,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 23062.094,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 6867.21,
+    "y": 27874.09
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 6867.21,
+    "y": 26306.758
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 11899.494,
+    "y": 14160.642
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 13337.105,
+    "y": 14160.642
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 14633.805,
+    "y": 14160.642
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 16237.056,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 17616.05,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 11294.879,
+    "y": 29417.439
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 10178.411,
+    "y": 29417.439
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 8949.883,
+    "y": 29417.439
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 7624.796,
+    "y": 29161.749
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 6867.21,
+    "y": 27839.521
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 6867.21,
+    "y": 26474.09
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 6867.21,
+    "y": 24906.758
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 6867.21,
+    "y": 26160.638
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 11497.4,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 12968.442,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 14597.068,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 16099.494,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 17537.105,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 18833.805,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 15773.32,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 17031.119,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 18413.991,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 19914.866,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 21348.77,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 22750.207,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 24286.061,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 25944.931,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 27262.094,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 14081.772,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 15227.378,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 16514.028,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 17963.879,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 19349.676,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 20970.813,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 22396.259,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 23805.663,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 20641.716,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 21837.056,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 23216.05,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 25348.429,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 26480.311,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 27691.027,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 28031.711,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 29531.214,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 11469.974,
+    "y": 29417.439
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 10345.785,
+    "y": 29417.439
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 8723.998,
+    "y": 29417.439
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 7326.005,
+    "y": 28861.442
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 6867.21,
+    "y": 27934.334
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 6867.21,
+    "y": 26705.806
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 6867.21,
+    "y": 25274.429
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 6867.21,
+    "y": 23639.521
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 6531.44,
+    "y": 22325.933
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 7642.56,
+    "y": 29179.604
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 14972.006,
+    "y": 14160.642
+  },
+  "collisionCount": 6
+}, {
+  "coordinates": {
+    "x": 16627.378,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 17914.028,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 19363.879,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 20749.676,
+    "y": 14160.642
+  },
+  "collisionCount": 18
+}, {
+  "coordinates": {
+    "x": 22370.813,
+    "y": 14160.642
+  },
+  "collisionCount": 6
+}, {
+  "coordinates": {
+    "x": 23796.259,
+    "y": 14160.642
+  },
+  "collisionCount": 6
+}, {
+  "coordinates": {
+    "x": 25205.663,
+    "y": 14160.642
+  },
+  "collisionCount": 6
+}, {
+  "coordinates": {
+    "x": 22041.716,
+    "y": 14160.642
+  },
+  "collisionCount": 11
+}, {
+  "coordinates": {
+    "x": 23237.056,
+    "y": 14160.642
+  },
+  "collisionCount": 7
+}, {
+  "coordinates": {
+    "x": 24616.05,
+    "y": 14160.642
+  },
+  "collisionCount": 7
+}, {
+  "coordinates": {
+    "x": 26748.429,
+    "y": 14160.642
+  },
+  "collisionCount": 6
+}, {
+  "coordinates": {
+    "x": 27880.311,
+    "y": 14160.642
+  },
+  "collisionCount": 6
+}, {
+  "coordinates": {
+    "x": 29091.027,
+    "y": 14160.642
+  },
+  "collisionCount": 6
+}, {
+  "coordinates": {
+    "x": 29431.711,
+    "y": 14160.642
+  },
+  "collisionCount": 6
+}, {
+  "coordinates": {
+    "x": 30931.214,
+    "y": 14160.642
+  },
+  "collisionCount": 6
+}, {
+  "coordinates": {
+    "x": 14368.442,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 15997.068,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 17499.494,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 18937.105,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 20233.805,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 17173.32,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 18431.119,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 19813.991,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 21314.866,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 22748.77,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 24150.207,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 25686.061,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 27344.931,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 28662.094,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 15481.772,
+    "y": 14160.642
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 10069.974,
+    "y": 29417.439
+  },
+  "collisionCount": 5
+}, {
+  "coordinates": {
+    "x": 8945.785,
+    "y": 29417.439
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 10466.247,
+    "y": 29417.439
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 9309.189,
+    "y": 29417.439
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 8016.585,
+    "y": 29417.439
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 7487.606,
+    "y": 29023.864
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 6867.21,
+    "y": 27650.802
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 6867.21,
+    "y": 26534.334
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 6825.014,
+    "y": 25339.92
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 6867.21,
+    "y": 23874.429
+  },
+  "collisionCount": 23
+}, {
+  "coordinates": {
+    "x": 6809.336,
+    "y": 22302.484
+  },
+  "collisionCount": 22
+}, {
+  "coordinates": {
+    "x": 5155.536,
+    "y": 22210.105
+  },
+  "collisionCount": 22
+}, {
+  "coordinates": {
+    "x": 4050.464,
+    "y": 22489.913
+  },
+  "collisionCount": 24
+}, {
+  "coordinates": {
+    "x": 2482.64,
+    "y": 22517.079
+  },
+  "collisionCount": 24
+}, {
+  "coordinates": {
+    "x": 6867.21,
+    "y": 28099.616
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 13872.089,
+    "y": 29417.439
+  },
+  "collisionCount": 9
+}, {
+  "coordinates": {
+    "x": 15427.198,
+    "y": 29417.439
+  },
+  "collisionCount": 9
+}, {
+  "coordinates": {
+    "x": 13030.915,
+    "y": 29417.439
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 11409.963,
+    "y": 29417.439
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 16859.881,
+    "y": 29417.439
+  },
+  "collisionCount": 9
+}, {
+  "coordinates": {
+    "x": 18522.198,
+    "y": 29417.439
+  },
+  "collisionCount": 9
+}, {
+  "coordinates": {
+    "x": 19838.543,
+    "y": 29535.291
+  },
+  "collisionCount": 9
+}, {
+  "coordinates": {
+    "x": 17978.981,
+    "y": 29535.291
+  },
+  "collisionCount": 9
+}, {
+  "coordinates": {
+    "x": 19318.3,
+    "y": 29417.439
+  },
+  "collisionCount": 9
+}, {
+  "coordinates": {
+    "x": 20936.527,
+    "y": 29535.291
+  },
+  "collisionCount": 9
+}, {
+  "coordinates": {
+    "x": 11880.624,
+    "y": 14160.642
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 13252.299,
+    "y": 14160.642
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 12603.345,
+    "y": 14160.642
+  },
+  "collisionCount": 9
+}, {
+  "coordinates": {
+    "x": 13951.105,
+    "y": 13814.347
+  },
+  "collisionCount": 7
+}, {
+  "coordinates": {
+    "x": 13951.105,
+    "y": 14147.097
+  },
+  "collisionCount": 9
+}, {
+  "coordinates": {
+    "x": 13951.105,
+    "y": 12945.381
+  },
+  "collisionCount": 9
+}, {
+  "coordinates": {
+    "x": 10405.367,
+    "y": 29929.809
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 21307.573,
+    "y": 29535.291
+  },
+  "collisionCount": 7
+}, {
+  "coordinates": {
+    "x": 22951.417,
+    "y": 29417.439
+  },
+  "collisionCount": 7
+}, {
+  "coordinates": {
+    "x": 22353.777,
+    "y": 29535.291
+  },
+  "collisionCount": 9
+}, {
+  "coordinates": {
+    "x": 23560.652,
+    "y": 29535.291
+  },
+  "collisionCount": 9
+}, {
+  "coordinates": {
+    "x": 9066.247,
+    "y": 29417.439
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 7909.189,
+    "y": 29417.439
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 6988.657,
+    "y": 28522.382
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 6867.21,
+    "y": 28101.708
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 6867.21,
+    "y": 26479.921
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 6867.21,
+    "y": 24850.802
+  },
+  "collisionCount": 18
+}, {
+  "coordinates": {
+    "x": 6818.96,
+    "y": 25338.623
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 5276.761,
+    "y": 25162.264
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 4222.065,
+    "y": 24356.795
+  },
+  "collisionCount": 22
+}, {
+  "coordinates": {
+    "x": 14430.915,
+    "y": 29417.439
+  },
+  "collisionCount": 6
+}, {
+  "coordinates": {
+    "x": 16099.41,
+    "y": 29535.291
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 11198.894,
+    "y": 14160.642
+  },
+  "collisionCount": 6
+}, {
+  "coordinates": {
+    "x": 9768.529,
+    "y": 14160.642
+  },
+  "collisionCount": 6
+}, {
+  "coordinates": {
+    "x": 8364.339,
+    "y": 14160.642
+  },
+  "collisionCount": 6
+}, {
+  "coordinates": {
+    "x": 7879.195,
+    "y": 13216.035
+  },
+  "collisionCount": 6
+}, {
+  "coordinates": {
+    "x": 11604.499,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 13280.624,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 14652.299,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 15768.442,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 17397.068,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 18899.494,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 20244.547,
+    "y": 13937.985
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 21633.805,
+    "y": 14160.642
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 18573.32,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 19831.119,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 21213.991,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 22714.866,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 24148.77,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 25550.207,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 27086.061,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 28744.931,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 30062.094,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 16881.772,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 18027.378,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 19314.028,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 20454.422,
+    "y": 13593.527
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 11371.23,
+    "y": 29417.439
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 10168.577,
+    "y": 30167.8
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 9032.777,
+    "y": 30434.559
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 7815.19,
+    "y": 30434.559
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 10555.464,
+    "y": 14160.642
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 10597.449,
+    "y": 29417.439
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 9642.57,
+    "y": 30434.559
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 8211.051,
+    "y": 30434.559
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 6924.59,
+    "y": 30434.559
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 21231.119,
+    "y": 14160.642
+  },
+  "collisionCount": 13
+}, {
+  "coordinates": {
+    "x": 22613.991,
+    "y": 14160.642
+  },
+  "collisionCount": 13
+}, {
+  "coordinates": {
+    "x": 23770.813,
+    "y": 14160.642
+  },
+  "collisionCount": 8
+}, {
+  "coordinates": {
+    "x": 25196.259,
+    "y": 14160.642
+  },
+  "collisionCount": 8
+}, {
+  "coordinates": {
+    "x": 24114.866,
+    "y": 14160.642
+  },
+  "collisionCount": 8
+}, {
+  "coordinates": {
+    "x": 26605.663,
+    "y": 14160.642
+  },
+  "collisionCount": 7
+}, {
+  "coordinates": {
+    "x": 28148.429,
+    "y": 14160.642
+  },
+  "collisionCount": 7
+}, {
+  "coordinates": {
+    "x": 29280.311,
+    "y": 14160.642
+  },
+  "collisionCount": 7
+}, {
+  "coordinates": {
+    "x": 30491.027,
+    "y": 14160.642
+  },
+  "collisionCount": 6
+}, {
+  "coordinates": {
+    "x": 30831.711,
+    "y": 14160.642
+  },
+  "collisionCount": 7
+}, {
+  "coordinates": {
+    "x": 32331.214,
+    "y": 14160.642
+  },
+  "collisionCount": 7
+}, {
+  "coordinates": {
+    "x": 25548.77,
+    "y": 14160.642
+  },
+  "collisionCount": 8
+}, {
+  "coordinates": {
+    "x": 26950.207,
+    "y": 14160.642
+  },
+  "collisionCount": 8
+}, {
+  "coordinates": {
+    "x": 28486.061,
+    "y": 14160.642
+  },
+  "collisionCount": 8
+}, {
+  "coordinates": {
+    "x": 30144.931,
+    "y": 14160.642
+  },
+  "collisionCount": 6
+}, {
+  "coordinates": {
+    "x": 31462.094,
+    "y": 14160.642
+  },
+  "collisionCount": 6
+}, {
+  "coordinates": {
+    "x": 14404.499,
+    "y": 14160.642
+  },
+  "collisionCount": 11
+}, {
+  "coordinates": {
+    "x": 16080.624,
+    "y": 14160.642
+  },
+  "collisionCount": 11
+}, {
+  "coordinates": {
+    "x": 17772.006,
+    "y": 14160.642
+  },
+  "collisionCount": 10
+}, {
+  "coordinates": {
+    "x": 17452.299,
+    "y": 14160.642
+  },
+  "collisionCount": 11
+}, {
+  "coordinates": {
+    "x": 18568.442,
+    "y": 14160.642
+  },
+  "collisionCount": 11
+}, {
+  "coordinates": {
+    "x": 20145.777,
+    "y": 14037.257
+  },
+  "collisionCount": 11
+}, {
+  "coordinates": {
+    "x": 21699.494,
+    "y": 14160.642
+  },
+  "collisionCount": 10
+}, {
+  "coordinates": {
+    "x": 23033.805,
+    "y": 14160.642
+  },
+  "collisionCount": 7
+}, {
+  "coordinates": {
+    "x": 24637.056,
+    "y": 14160.642
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 26016.05,
+    "y": 14160.642
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 20502.752,
+    "y": 12986.005
+  },
+  "collisionCount": 11
+}, {
+  "coordinates": {
+    "x": 19681.772,
+    "y": 14160.642
+  },
+  "collisionCount": 11
+}, {
+  "coordinates": {
+    "x": 20459.458,
+    "y": 13530.228
+  },
+  "collisionCount": 11
+}, {
+  "coordinates": {
+    "x": 20834.15,
+    "y": 12349.65
+  },
+  "collisionCount": 11
+}, {
+  "coordinates": {
+    "x": 20946.589,
+    "y": 11282.789
+  },
+  "collisionCount": 16
+}, {
+  "coordinates": {
+    "x": 22166.285,
+    "y": 11677.528
+  },
+  "collisionCount": 16
+}, {
+  "coordinates": {
+    "x": 11904.618,
+    "y": 29417.439
+  },
+  "collisionCount": 8
+}, {
+  "coordinates": {
+    "x": 10639.232,
+    "y": 29694.757
+  },
+  "collisionCount": 8
+}, {
+  "coordinates": {
+    "x": 9197.449,
+    "y": 29417.439
+  },
+  "collisionCount": 12
+}, {
+  "coordinates": {
+    "x": 7729,
+    "y": 29266.482
+  },
+  "collisionCount": 12
+}, {
+  "coordinates": {
+    "x": 6912.909,
+    "y": 28446.25
+  },
+  "collisionCount": 11
+}, {
+  "coordinates": {
+    "x": 6867.21,
+    "y": 27172.507
+  },
+  "collisionCount": 11
+}, {
+  "coordinates": {
+    "x": 6867.21,
+    "y": 27825.897
+  },
+  "collisionCount": 13
+}, {
+  "coordinates": {
+    "x": 6867.21,
+    "y": 26701.708
+  },
+  "collisionCount": 13
+}, {
+  "coordinates": {
+    "x": 6604.14,
+    "y": 25292.603
+  },
+  "collisionCount": 13
+}, {
+  "coordinates": {
+    "x": 5442.583,
+    "y": 25164.065
+  },
+  "collisionCount": 13
+}, {
+  "coordinates": {
+    "x": 3879.086,
+    "y": 25242.917
+  },
+  "collisionCount": 13
+}, {
+  "coordinates": {
+    "x": 9928.984,
+    "y": 30408.609
+  },
+  "collisionCount": 10
+}, {
+  "coordinates": {
+    "x": 8879.468,
+    "y": 30434.559
+  },
+  "collisionCount": 9
+}, {
+  "coordinates": {
+    "x": 7632.777,
+    "y": 30434.559
+  },
+  "collisionCount": 9
+}, {
+  "coordinates": {
+    "x": 9361.406,
+    "y": 30434.559
+  },
+  "collisionCount": 8
+}, {
+  "coordinates": {
+    "x": 8242.57,
+    "y": 30434.559
+  },
+  "collisionCount": 8
+}, {
+  "coordinates": {
+    "x": 6430.272,
+    "y": 30318.77
+  },
+  "collisionCount": 9
+}, {
+  "coordinates": {
+    "x": 6812.925,
+    "y": 30420.174
+  },
+  "collisionCount": 8
+}, {
+  "coordinates": {
+    "x": 5641.62,
+    "y": 30362.18
+  },
+  "collisionCount": 8
+}, {
+  "coordinates": {
+    "x": 11598.265,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 12980.651,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 13951.105,
+    "y": 13727.586
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 13951.105,
+    "y": 12414.347
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 12802.588,
+    "y": 29417.439
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 11462.416,
+    "y": 29417.439
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 9971.23,
+    "y": 29417.439
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 20513.41,
+    "y": 29910.323
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 21577.61,
+    "y": 30979.923
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 22393.91,
+    "y": 31451.679
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 23543.552,
+    "y": 31938.72
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 24047.748,
+    "y": 31451.679
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 24393.296,
+    "y": 32792.775
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 25082.94,
+    "y": 33774.327
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 22878.499,
+    "y": 31451.679
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 25627.717,
+    "y": 31451.679
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 27164.698,
+    "y": 31451.679
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 28821.266,
+    "y": 31451.679
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 30219.831,
+    "y": 31451.679
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 31450.492,
+    "y": 31451.679
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 28400.75,
+    "y": 31451.679
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 29557.133,
+    "y": 31451.679
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 30845.511,
+    "y": 31451.679
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 32295.28,
+    "y": 31451.679
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 33745.057,
+    "y": 31451.679
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 29918.484,
+    "y": 31451.679
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 12598.894,
+    "y": 14160.642
+  },
+  "collisionCount": 7
+}, {
+  "coordinates": {
+    "x": 14003.345,
+    "y": 14160.642
+  },
+  "collisionCount": 7
+}, {
+  "coordinates": {
+    "x": 13951.105,
+    "y": 12747.097
+  },
+  "collisionCount": 6
+}, {
+  "coordinates": {
+    "x": 13951.105,
+    "y": 11545.381
+  },
+  "collisionCount": 6
+}, {
+  "coordinates": {
+    "x": 11718.73,
+    "y": 14160.642
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 12998.265,
+    "y": 14160.642
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 13951.105,
+    "y": 13731.096
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 13951.105,
+    "y": 12327.586
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 13951.105,
+    "y": 11014.347
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 23919.122,
+    "y": 32316.196
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 9668.687,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 8352.172,
+    "y": 14160.642
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 7879.195,
+    "y": 12979.166
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 7879.195,
+    "y": 11374.224
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 7879.195,
+    "y": 9836.911
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 7879.195,
+    "y": 11849.976
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 7879.195,
+    "y": 10445.786
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 7837.576,
+    "y": 9033.212
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 22672.673,
+    "y": 31451.679
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 23577.334,
+    "y": 31972.673
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 24181.503,
+    "y": 31451.679
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 24530.993,
+    "y": 32931.171
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 25082.94,
+    "y": 33908.137
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 25082.94,
+    "y": 35174.327
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 25447.748,
+    "y": 31451.679
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 27027.717,
+    "y": 31451.679
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 28564.698,
+    "y": 31451.679
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 30221.266,
+    "y": 31451.679
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 31482.808,
+    "y": 31781.301
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 32569.631,
+    "y": 32468.799
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 29800.75,
+    "y": 31451.679
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 31318.484,
+    "y": 31451.679
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 32850.492,
+    "y": 31451.679
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 12084.173,
+    "y": 14160.642
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 10062.416,
+    "y": 29417.439
+  },
+  "collisionCount": 6
+}, {
+  "coordinates": {
+    "x": 8571.23,
+    "y": 29417.439
+  },
+  "collisionCount": 6
+}, {
+  "coordinates": {
+    "x": 33942.869,
+    "y": 14928.568
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 8268.687,
+    "y": 14160.642
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 7879.195,
+    "y": 13233.619
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 7879.195,
+    "y": 11579.166
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 11684.68,
+    "y": 14160.642
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 13118.73,
+    "y": 14160.642
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 13951.105,
+    "y": 13713.482
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 13951.105,
+    "y": 12331.096
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 13951.105,
+    "y": 10927.586
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 13951.105,
+    "y": 9614.347
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 7879.195,
+    "y": 9974.224
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 7879.195,
+    "y": 10449.976
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 7858.56,
+    "y": 9054.303
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 6876.101,
+    "y": 8035.405
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 12866.222,
+    "y": 29344.171
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 11185.609,
+    "y": 29417.439
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 10271.506,
+    "y": 30064.349
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 34190.805,
+    "y": 15255.17
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 33498.251,
+    "y": 14481.694
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 34190.805,
+    "y": 15695.357
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 37205.964,
+    "y": 40774.011
+  },
+  "collisionCount": 5
+}, {
+  "coordinates": {
+    "x": 34190.805,
+    "y": 28056.827
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 7182.523,
+    "y": 7259.364
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 6280.774,
+    "y": 7061.274
+  },
+  "collisionCount": 5
+}, {
+  "coordinates": {
+    "x": 10504.618,
+    "y": 29417.439
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 9546.765,
+    "y": 30434.559
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 7961.406,
+    "y": 30434.559
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 6843.392,
+    "y": 30428.247
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 5447.205,
+    "y": 30137.893
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 4645.38,
+    "y": 31345.799
+  },
+  "collisionCount": 6
+}, {
+  "coordinates": {
+    "x": 37226.76,
+    "y": 38605.773
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 37215.745,
+    "y": 39642.307
+  },
+  "collisionCount": 5
+}, {
+  "coordinates": {
+    "x": 36888.201,
+    "y": 40726.144
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 29224.934,
+    "y": 32468.799
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 7879.195,
+    "y": 14057.745
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 7038.36,
+    "y": 7624.469
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 11752.374,
+    "y": 29417.439
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 10440.702,
+    "y": 29894.294
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 9025.401,
+    "y": 30434.559
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 7479.468,
+    "y": 30434.559
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 6253.945,
+    "y": 30272.044
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 5253.039,
+    "y": 30692.347
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 38131.473,
+    "y": 29923.801
+  },
+  "collisionCount": 6
+}, {
+  "coordinates": {
+    "x": 39581.253,
+    "y": 29923.801
+  },
+  "collisionCount": 6
+}, {
+  "coordinates": {
+    "x": 41031.033,
+    "y": 29923.801
+  },
+  "collisionCount": 6
+}, {
+  "coordinates": {
+    "x": 33375.469,
+    "y": 12786.015
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 34169.349,
+    "y": 12537.479
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 35689.409,
+    "y": 12520.216
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 37038.157,
+    "y": 12803.113
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 12174.697,
+    "y": 29417.439
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 34471.675,
+    "y": 31106.45
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 26382.325,
+    "y": 40880.35
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 37226.76,
+    "y": 38965.045
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 37067.112,
+    "y": 40366.493
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 37763.172,
+    "y": 28876.004
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 38534.604,
+    "y": 29073.642
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 33419.6,
+    "y": 12063.345
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 20775.037,
+    "y": 12185.601
+  },
+  "collisionCount": 4
+}, {
+  "coordinates": {
+    "x": 21666.509,
+    "y": 11223.959
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 19332.293,
+    "y": 12829.531
+  },
+  "collisionCount": 5
+}, {
+  "coordinates": {
+    "x": 12611.62,
+    "y": 5960.217
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 5705.378,
+    "y": 6189.168
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 7177.071,
+    "y": 7273.171
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 6322.154,
+    "y": 6295.442
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 5713.467,
+    "y": 30504.633
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 11240.259,
+    "y": 29417.439
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 10091.115,
+    "y": 30245.656
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 8808.422,
+    "y": 30434.559
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 7139.771,
+    "y": 30434.559
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 22303.92,
+    "y": 31659.126
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 23482.048,
+    "y": 31782.971
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 24261.773,
+    "y": 32832.115
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 24878.77,
+    "y": 34237.543
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 37373.432,
+    "y": 29527.704
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 38087.103,
+    "y": 28683.008
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 36391.803,
+    "y": 19301.482
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 21931.488,
+    "y": 12802.458
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 20132.419,
+    "y": 12781.756
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 19746.386,
+    "y": 12320.466
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 7175.293,
+    "y": 6747.509
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 6973.205,
+    "y": 5357.401
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 6674.534,
+    "y": 15226.249
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 5181.35,
+    "y": 15584.331
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 5167.584,
+    "y": 31066.937
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 3658.866,
+    "y": 31095.742
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 4050.053,
+    "y": 30048.642
+  },
+  "collisionCount": 3
+}, {
+  "coordinates": {
+    "x": 36810.378,
+    "y": 30593.812
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 37333.811,
+    "y": 28371.442
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 33044.015,
+    "y": 12223.154
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 20166.778,
+    "y": 11645.337
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 13954.29,
+    "y": 6736.498
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 14206.809,
+    "y": 5375.267
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 14343.363,
+    "y": 3973.532
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 4047.742,
+    "y": 25284.144
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 2481.411,
+    "y": 25323.57
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 6867.21,
+    "y": 26822.17
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 5441.557,
+    "y": 30389.641
+  },
+  "collisionCount": 2
+}, {
+  "coordinates": {
+    "x": 5216.333,
+    "y": 31813.395
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 3833.482,
+    "y": 30549.163
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 5014.549,
+    "y": 30690.956
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 36007.52,
+    "y": 41814.446
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 37057.928,
+    "y": 29763.327
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 36766.692,
+    "y": 28143.967
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 31975.638,
+    "y": 12807.773
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 4052.858,
+    "y": 18762.655
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 2483.717,
+    "y": 18759.05
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 13579.729,
+    "y": 32295.929
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 35206.92,
+    "y": 12829.531
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 19332.293,
+    "y": 11865.293
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 2652.901,
+    "y": 25404.223
+  },
+  "collisionCount": 1
+}, {
+  "coordinates": {
+    "x": 1083.737,
+    "y": 25404.223
+  },
+  "collisionCount": 1
+}]
